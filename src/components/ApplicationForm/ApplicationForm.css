@@ -1,0 +1,80 @@
+body {
+  background: #9092eb;
+  text-align: center;
+  box-sizing: border-box;
+}
+.ApplicationForm {
+  background-color: #69cd7c;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(13, 2, 230, 0.2);
+  padding: 10px 20px;
+  transition: transform 0.2s;
+  max-width: 500px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: x-large;
+  text-align: center;
+  color: #327c35;
+}
+
+fieldset {
+  border: none;
+}
+
+input {
+  display: block;
+  width: 100%;
+  /* margin-bottom: 15px; */
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #e5a1a1;
+  border-radius: 3px;
+  font-size: 12px;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  display: inline;
+  width: 10%;
+}
+select {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #c74eb7;
+  border-radius: 5px;
+}
+
+label {
+  font-size: 15px;
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  text-align: left;
+  color: #e06f6f;
+  font-weight: bold;
+}
+
+.appli-button {
+  padding: 15px;
+  border-radius: 10px;
+  margin: 15px;
+  border: none;
+  color: rgb(207, 136, 136);
+  cursor: pointer;
+  background-color: #4caf50;
+  width: 40%;
+  font-size: 16px;
+}
+textarea {
+  resize: none;
+  width: 98%;
+  min-height: 100px;
+  max-height: 150px;
+}
